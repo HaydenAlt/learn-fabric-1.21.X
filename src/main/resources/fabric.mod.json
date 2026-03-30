@@ -1,0 +1,37 @@
+{
+	"schemaVersion": 1,
+	"id": "learn",
+	"version": "${version}",
+	"name": "learn",
+	"description": "",
+	"authors": [
+		"haydenalt!"
+	],
+	"contact": {
+		"homepage": "",
+		"sources": ""
+	},
+	"license": "ARR",
+	"icon": "assets/learn/icon.png",
+	"environment": "*",
+	"entrypoints": {
+		"main": [
+			"com.haydenalt.learn.Learn"
+		],
+		"fabric-datagen": [
+			"com.haydenalt.learn.LearnDataGenerator"
+		],
+		"client": [
+			"com.haydenalt.learn.LearnClient"
+		]
+	},
+	"mixins": [
+		"learn.mixins.json"
+	],
+	"depends": {
+		"fabricloader": ">=0.18.5",
+		"minecraft": "~1.21",
+		"java": ">=21",
+		"fabric-api": "*"
+	}
+}
