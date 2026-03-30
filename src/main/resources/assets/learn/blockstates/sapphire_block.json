@@ -1,0 +1,7 @@
+{
+  "variants": {
+    "": {
+      "model": "learn:block/sapphire_block"
+    }
+  }
+}
